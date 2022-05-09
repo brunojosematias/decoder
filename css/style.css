@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #F3F5FC;
+}
+
+header img {
+  margin: 24px 0 0 24px;
+}
+
+.container .input_output {
+  height: 16rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input_output input {
+  width: 640px;
+  font-size: 32px;
+  background-color: #F3F5FC;
+  border: none;
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 32px;
+  color: #0A3871;
+}
+
+
+.input_output .cryptography {
+  width: 400px;
+  height: 800px;
+  margin-top: 30rem;
+  border-radius: 32px;
+  background-color: #FFF;
+}
+
+.cryptography img {
+  margin: 16rem 0 0;
+}
+
+.cryptography .message {
+  text-align: center;
+  margin-top: 26px;
+}
+
+.message h1 {
+  font-weight: 700;
+  color: #343A40;
+}
+
+.message p {
+  font-size: 16px;
+  color: #495057;
+  margin-top: 16px;
+}
+
+.buttons {
+  margin: 24rem 0 0 24px;
+}
+
+.buttons p  {
+  margin-bottom: 16px;
+}
+
+
+
+
+.buttons button {
+  width: 328px;
+  height: 67px;
+  margin-right: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0A3871;
+  background-color: #D8DFE8;
+  border-radius: 24px;
+  border-color: #0A3871;
+}
+
+.buttons button:first-child{
+  color: #FFF;
+  background-color: #0A3871;
+} 
+
+button:hover {
+  cursor: pointer;
+}
+
+
